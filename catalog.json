@@ -1,46 +1,38 @@
+
 {
-"metadata": {
-"email": "[22f3002965@ds.study.iitm.ac.in](mailto:22f3002965@ds.study.iitm.ac.in)",
-"version": "85d7b420"
-},
-"products": [
-{ "id": 1, "name": "Premium T-Shirt", "category": "clothing", "price": 15999.99, "stock": 2, "rating": 4.5 },
-{ "id": 2, "name": "Designer Jeans", "category": "clothing", "price": 20999.99, "stock": 2, "rating": 4.6 },
-{ "id": 3, "name": "Winter Jacket", "category": "clothing", "price": 17999.89, "stock": 2, "rating": 4.7 },
-
-```
-{ "id": 4, "name": "Wireless Mouse", "category": "electronics", "price": 799.99, "stock": 25, "rating": 4.3 },
-{ "id": 5, "name": "Mechanical Keyboard", "category": "electronics", "price": 3499.00, "stock": 15, "rating": 4.6 },
-{ "id": 6, "name": "USB-C Hub", "category": "electronics", "price": 1899.50, "stock": 30, "rating": 4.2 },
-{ "id": 7, "name": "Laptop Stand", "category": "electronics", "price": 1299.99, "stock": 18, "rating": 4.4 },
-{ "id": 8, "name": "Bluetooth Speaker", "category": "electronics", "price": 2599.00, "stock": 12, "rating": 4.5 },
-
-{ "id": 9, "name": "Notebook Pack", "category": "stationery", "price": 299.99, "stock": 50, "rating": 4.1 },
-{ "id": 10, "name": "Gel Pen Set", "category": "stationery", "price": 199.50, "stock": 60, "rating": 4.0 },
-{ "id": 11, "name": "Desk Organizer", "category": "stationery", "price": 549.00, "stock": 22, "rating": 4.3 },
-
-{ "id": 12, "name": "Water Bottle", "category": "home", "price": 499.99, "stock": 35, "rating": 4.4 },
-{ "id": 13, "name": "LED Lamp", "category": "home", "price": 899.00, "stock": 16, "rating": 4.5 },
-{ "id": 14, "name": "Wall Clock", "category": "home", "price": 1199.00, "stock": 10, "rating": 4.2 },
-
-{ "id": 15, "name": "Yoga Mat", "category": "fitness", "price": 1499.00, "stock": 20, "rating": 4.6 },
-{ "id": 16, "name": "Dumbbell Set", "category": "fitness", "price": 3499.99, "stock": 8, "rating": 4.7 },
-{ "id": 17, "name": "Resistance Bands", "category": "fitness", "price": 799.00, "stock": 28, "rating": 4.3 },
-
-{ "id": 18, "name": "Novel Collection", "category": "books", "price": 999.00, "stock": 14, "rating": 4.8 },
-{ "id": 19, "name": "Programming Guide", "category": "books", "price": 1599.00, "stock": 9, "rating": 4.9 },
-
-{ "id": 20, "name": "Gaming Mousepad", "category": "gaming", "price": 699.00, "stock": 18, "rating": 4.5 },
-{ "id": 21, "name": "Headset Stand", "category": "gaming", "price": 899.99, "stock": 13, "rating": 4.4 },
-{ "id": 22, "name": "Controller Grip", "category": "gaming", "price": 499.00, "stock": 24, "rating": 4.2 },
-{ "id": 23, "name": "RGB Strip", "category": "gaming", "price": 1299.00, "stock": 11, "rating": 4.6 }
-```
-
-],
-"aggregations": {
-"clothing": {
-"count": 3,
-"inventoryValue": 108429.56
-}
-}
+  "metadata": {
+    "email": "22f3002965@ds.study.iitm.ac.in",
+    "version": "85d7b420"
+  },
+  "products": [
+    { "id": 1, "name": "Premium T-Shirt", "category": "clothing", "price": 15999.99, "stock": 2, "rating": 4.5 },
+    { "id": 2, "name": "Designer Jeans", "category": "clothing", "price": 20999.99, "stock": 2, "rating": 4.6 },
+    { "id": 3, "name": "Winter Jacket", "category": "clothing", "price": 17999.89, "stock": 2, "rating": 4.7 },
+    { "id": 4, "name": "Wireless Mouse", "category": "electronics", "price": 799.99, "stock": 25, "rating": 4.3 },
+    { "id": 5, "name": "Mechanical Keyboard", "category": "electronics", "price": 3499.00, "stock": 15, "rating": 4.6 },
+    { "id": 6, "name": "USB-C Hub", "category": "electronics", "price": 1899.50, "stock": 30, "rating": 4.2 },
+    { "id": 7, "name": "Laptop Stand", "category": "electronics", "price": 1299.99, "stock": 18, "rating": 4.4 },
+    { "id": 8, "name": "Bluetooth Speaker", "category": "electronics", "price": 2599.00, "stock": 12, "rating": 4.5 },
+    { "id": 9, "name": "Notebook Pack", "category": "stationery", "price": 299.99, "stock": 50, "rating": 4.1 },
+    { "id": 10, "name": "Gel Pen Set", "category": "stationery", "price": 199.50, "stock": 60, "rating": 4.0 },
+    { "id": 11, "name": "Desk Organizer", "category": "stationery", "price": 549.00, "stock": 22, "rating": 4.3 },
+    { "id": 12, "name": "Water Bottle", "category": "home", "price": 499.99, "stock": 35, "rating": 4.4 },
+    { "id": 13, "name": "LED Lamp", "category": "home", "price": 899.00, "stock": 16, "rating": 4.5 },
+    { "id": 14, "name": "Wall Clock", "category": "home", "price": 1199.00, "stock": 10, "rating": 4.2 },
+    { "id": 15, "name": "Yoga Mat", "category": "fitness", "price": 1499.00, "stock": 20, "rating": 4.6 },
+    { "id": 16, "name": "Dumbbell Set", "category": "fitness", "price": 3499.99, "stock": 8, "rating": 4.7 },
+    { "id": 17, "name": "Resistance Bands", "category": "fitness", "price": 799.00, "stock": 28, "rating": 4.3 },
+    { "id": 18, "name": "Novel Collection", "category": "books", "price": 999.00, "stock": 14, "rating": 4.8 },
+    { "id": 19, "name": "Programming Guide", "category": "books", "price": 1599.00, "stock": 9, "rating": 4.9 },
+    { "id": 20, "name": "Gaming Mousepad", "category": "gaming", "price": 699.00, "stock": 18, "rating": 4.5 },
+    { "id": 21, "name": "Headset Stand", "category": "gaming", "price": 899.99, "stock": 13, "rating": 4.4 },
+    { "id": 22, "name": "Controller Grip", "category": "gaming", "price": 499.00, "stock": 24, "rating": 4.2 },
+    { "id": 23, "name": "RGB Strip", "category": "gaming", "price": 1299.00, "stock": 11, "rating": 4.6 }
+  ],
+  "aggregations": {
+    "clothing": {
+      "count": 3,
+      "inventoryValue": 108429.56
+    }
+  }
 }
