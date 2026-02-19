@@ -29,25 +29,10 @@
     { "id": "prod-85d7b420-023", "name": "Standard Item 23", "category": "electronics", "price": 485.26, "stock": 103, "rating": 1.8 }
   ],
   "aggregations": {
-  "clothing": {
-    "count": 3,
-    "inventoryValue": 108429.56
-  },
-  "electronics": {
-    "count": 6,
-    "inventoryValue": 95545.16
-  },
-  "books": {
-    "count": 4,
-    "inventoryValue": 65577.99
-  },
-  "home": {
-    "count": 6,
-    "inventoryValue": 147341.12
-  },
-  "sports": {
-    "count": 4,
-    "inventoryValue": 133678.65
+    "clothing": { "count": 3, "inventoryValue": 108429.56 },
+    "electronics": { "count": 6, "inventoryValue": 95545.16 },
+    "books": { "count": 4, "inventoryValue": 65577.99 },
+    "home": { "count": 6, "inventoryValue": 147341.12 },
+    "sports": { "count": 4, "inventoryValue": 133678.65 }
   }
 }
-
